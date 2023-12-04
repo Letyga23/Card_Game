@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>323</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI</family>
+    <pointsize>10</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Главное меню</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: #ff5b00;
+	border: 3px solid #4d4d4d;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="2">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="rewardsButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>28</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                             background-color: #2ecc71;
+                             border: 2px solid #27ae60;
+                             color: #ecf0f1;
+                             padding: 10px;
+                             border-radius: 15px;
+                          }
+
+QPushButton:hover {
+                            background-color: #27ae60;
+                            color: #ffffff;
+                         }
+
+QPushButton:pressed {
+                            background-color: #229954;
+                         }</string>
+      </property>
+      <property name="text">
+       <string>Награды</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Assets.qrc">
+        <normaloff>:/assets/кубок.png</normaloff>:/assets/кубок.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>48</width>
+        <height>48</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="statisticsButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>28</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                             background-color: #2ecc71;
+                             border: 2px solid #27ae60;
+                             color: #ecf0f1;
+                             padding: 10px;
+                             border-radius: 15px;
+                          }
+
+QPushButton:hover {
+                            background-color: #27ae60;
+                            color: #ffffff;
+                         }
+
+QPushButton:pressed {
+                            background-color: #229954;
+                         }</string>
+      </property>
+      <property name="text">
+       <string>Статистика</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Assets.qrc">
+        <normaloff>:/assets/Статистика.png</normaloff>:/assets/Статистика.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>48</width>
+        <height>48</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="exitButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>28</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                             background-color: #2ecc71;
+                             border: 2px solid #27ae60;
+                             color: #ecf0f1;
+                             padding: 10px;
+                             border-radius: 15px;
+                          }
+
+QPushButton:hover {
+                            background-color: #27ae60;
+                            color: #ffffff;
+                         }
+
+QPushButton:pressed {
+                            background-color: #229954;
+                         }</string>
+      </property>
+      <property name="text">
+       <string>Выход</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Assets.qrc">
+        <normaloff>:/assets/выйти.png</normaloff>:/assets/выйти.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>48</width>
+        <height>48</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="startGameButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>28</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                             background-color: #2ecc71;
+                             border: 2px solid #27ae60;
+                             color: #ecf0f1;
+                             padding: 10px;
+                             border-radius: 15px;
+                          }
+
+QPushButton:hover {
+                            background-color: #27ae60;
+                            color: #ffffff;
+                         }
+
+QPushButton:pressed {
+                            background-color: #229954;
+                         }</string>
+      </property>
+      <property name="text">
+       <string>Начать игру</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Assets.qrc">
+        <normaloff>:/assets/начать игру.png</normaloff>:/assets/начать игру.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>48</width>
+        <height>48</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="1">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="1">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>

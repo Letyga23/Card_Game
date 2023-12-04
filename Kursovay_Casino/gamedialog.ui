@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameDialog</class>
+ <widget class="QDialog" name="GameDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>246</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Выбор игры</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+	background-color: rgb(123, 162, 170);
+	border: 3px solid #4d4d4d;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Выберите игру:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string>QPushButton {
+                             background-color: rgb(37, 204, 76);
+                             border: 2px solid #27ae60;
+                             color: #ecf0f1;
+                             padding: 5px;
+                             border-radius: 15px;
+                          }
+
+QPushButton:hover {
+                            background-color: #27ae60;
+                            color: #ffffff;
+                         }
+
+QPushButton:pressed {
+                            background-color: #229954;
+                         }</string>
+     </property>
+     <property name="text">
+      <string>Блэкджек</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+                             background-color: rgb(37, 204, 76);
+                             border: 2px solid #27ae60;
+                             color: #ecf0f1;
+                             padding: 5px;
+                             border-radius: 15px;
+                          }
+
+QPushButton:hover {
+                            background-color: #27ae60;
+                            color: #ffffff;
+                         }
+
+QPushButton:pressed {
+                            background-color: #229954;
+                         }</string>
+     </property>
+     <property name="text">
+      <string>Девятка</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+                             background-color: rgb(37, 204, 76);
+                             border: 2px solid #27ae60;
+                             color: #ecf0f1;
+                             padding: 5px;
+                             border-radius: 15px;
+                          }
+
+QPushButton:hover {
+                            background-color: #27ae60;
+                            color: #ffffff;
+                         }
+
+QPushButton:pressed {
+                            background-color: #229954;
+                         }</string>
+     </property>
+     <property name="text">
+      <string>Сундук
+(в разработке...)</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
